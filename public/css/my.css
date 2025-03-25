@@ -1,0 +1,18 @@
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .scrolling-text {
+    display: flex;
+    gap: 1.5rem;
+    animation: scroll 10s linear infinite;
+  }
+  
+  @media (min-width: 768px) {
+    .scrolling-text {
+      animation: none; /* Disable scrolling on desktop */
+      transform: translateX(0);
+    }
+  }
+  
