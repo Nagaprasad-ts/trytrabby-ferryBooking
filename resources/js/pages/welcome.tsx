@@ -25,7 +25,7 @@ export default function welcome() {
     const [selectedFerry, setSelectedFerry] = useState('single-ferry');
 
     return (
-        <div className="container">
+        <div className="container mx-auto">
             <Head title="Ferry Booking">
                 <link rel="css" href="/css/my.css" />
                 <link rel="preconnect" href="https://fonts.bunny.net" />
